@@ -24,6 +24,8 @@ add_executable(
    source/SmbLnk2_CfgGen/CfgAdc.cpp
    source/SmbLnk2_CfgGen/CfgBswM.cpp
    source/SmbLnk2_CfgGen/CfgCanIf.cpp
+   source/SmbLnk2_CfgGen/CfgCanNm.cpp
+   source/SmbLnk2_CfgGen/CfgCanSm.cpp
    source/SmbLnk2_CfgGen/CfgCanTp.cpp
    source/SmbLnk2_CfgGen/CfgCan.cpp
    source/SmbLnk2_CfgGen/CfgComM.cpp
@@ -35,6 +37,7 @@ add_executable(
    source/SmbLnk2_CfgGen/CfgDem.cpp
    source/SmbLnk2_CfgGen/CfgDet.cpp
    source/SmbLnk2_CfgGen/CfgDio.cpp
+   source/SmbLnk2_CfgGen/CfgDlt.cpp
    source/SmbLnk2_CfgGen/CfgEa.cpp
    source/SmbLnk2_CfgGen/CfgEcuM.cpp
    source/SmbLnk2_CfgGen/CfgEep.cpp
@@ -44,9 +47,13 @@ add_executable(
    source/SmbLnk2_CfgGen/CfgFiM.cpp
    source/SmbLnk2_CfgGen/CfgFls.cpp
    source/SmbLnk2_CfgGen/CfgFrIf.cpp
+   source/SmbLnk2_CfgGen/CfgFrNm.cpp
+   source/SmbLnk2_CfgGen/CfgFrTp.cpp
    source/SmbLnk2_CfgGen/CfgFr.cpp
    source/SmbLnk2_CfgGen/CfgGpt.cpp
    source/SmbLnk2_CfgGen/CfgIcu.cpp
+   source/SmbLnk2_CfgGen/CfgIpduM.cpp
+   source/SmbLnk2_CfgGen/CfgJ1939Tp.cpp
    source/SmbLnk2_CfgGen/CfgLinIf.cpp
    source/SmbLnk2_CfgGen/CfgLinTp.cpp
    source/SmbLnk2_CfgGen/CfgLin.cpp
@@ -76,6 +83,8 @@ add_executable(
    source/SmbLnk2_EthIf/EthIf.cpp
    source/SmbLnk2_Fee/Fee.cpp
    source/SmbLnk2_FrIf/FrIf.cpp
+   source/SmbLnk2_FrTp/FrTp.cpp
+   source/SmbLnk2_J1939Tp/J1939Tp.cpp
    source/SmbLnk2_LinIf/LinIf.cpp
    source/SmbLnk2_LinTp/LinTp.cpp
    source/SmbLnk2_MemIf/MemIf.cpp
@@ -99,13 +108,18 @@ add_executable(
    source/SmbLnk2_Wdg/Wdg.cpp
    source/SmbLnk2_BswM/BswM.cpp
    source/SmbLnk2_Com/Com.cpp
+   source/SmbLnk2_CanNm/CanNm.cpp
+   source/SmbLnk2_CanSm/CanSm.cpp
    source/SmbLnk2_ComM/ComM.cpp
    source/SmbLnk2_Csm/Csm.cpp
    source/SmbLnk2_Dcm/Dcm.cpp
    source/SmbLnk2_Dem/Dem.cpp
    source/SmbLnk2_Det/Det.cpp
+   source/SmbLnk2_Dlt/Dlt.cpp
    source/SmbLnk2_EcuM/EcuM.cpp
    source/SmbLnk2_FiM/FiM.cpp
+   source/SmbLnk2_FrNm/FrNm.cpp
+   source/SmbLnk2_IpduM/IpduM.cpp
    source/SmbLnk2_Nm/Nm.cpp
    source/SmbLnk2_NvM/NvM.cpp
    source/SmbLnk2_Os/Os.cpp
@@ -129,12 +143,16 @@ target_include_directories(
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_CompilerAbstractionGNU"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_CfgGen"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_CanIf"
+   "${PROJECT_SOURCE_DIR}/source/SmbLnk2_CanNm"
+   "${PROJECT_SOURCE_DIR}/source/SmbLnk2_CanSm"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_CanTp"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_CryIf"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_Ea"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_EthIf"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_Fee"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_FrIf"
+   "${PROJECT_SOURCE_DIR}/source/SmbLnk2_FrTp"
+   "${PROJECT_SOURCE_DIR}/source/SmbLnk2_J1939Tp"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_LinIf"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_LinTp"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_MemIf"
@@ -163,8 +181,11 @@ target_include_directories(
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_Dcm"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_Dem"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_Det"
+   "${PROJECT_SOURCE_DIR}/source/SmbLnk2_Dlt"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_EcuM"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_FiM"
+   "${PROJECT_SOURCE_DIR}/source/SmbLnk2_FrNm"
+   "${PROJECT_SOURCE_DIR}/source/SmbLnk2_IpduM"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_Nm"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_NvM"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_Os"
