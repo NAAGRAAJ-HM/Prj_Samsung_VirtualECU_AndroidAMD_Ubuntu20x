@@ -140,7 +140,7 @@ add_executable(
 target_include_directories(
    Samsung_VirtualECU_AndroidAMD_Ubuntu20x.out PUBLIC
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_common"
-   "${PROJECT_SOURCE_DIR}/source/SmbLnk2_CompilerAbstractionGNU"
+   "${PROJECT_SOURCE_DIR}/source/SmbLnk2_Compiler"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_CfgGen"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_CanIf"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_CanNm"
