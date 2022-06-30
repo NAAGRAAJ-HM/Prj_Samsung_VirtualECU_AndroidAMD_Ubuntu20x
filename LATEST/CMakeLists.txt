@@ -21,6 +21,7 @@ add_definitions(
 
 add_executable(
    Samsung_VirtualECU_AndroidAMD_Ubuntu20x.out
+   source/SmbLnk2_CfgGen/CfgGen.cpp
    source/SmbLnk2_CfgGen/CfgAdc.cpp
    source/SmbLnk2_CfgGen/CfgBswM.cpp
    source/SmbLnk2_CfgGen/CfgCanIf.cpp
