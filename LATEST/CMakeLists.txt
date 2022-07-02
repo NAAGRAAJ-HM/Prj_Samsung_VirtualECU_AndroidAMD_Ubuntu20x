@@ -22,61 +22,6 @@ add_definitions(
 add_executable(
    Samsung_VirtualECU_AndroidAMD_Ubuntu20x.out
    source/SmbLnk2_CfgGen/CfgGen.cpp
-   source/SmbLnk2_CfgGen/CfgAdc.cpp
-   source/SmbLnk2_CfgGen/CfgBswM.cpp
-   source/SmbLnk2_CfgGen/CfgCanIf.cpp
-   source/SmbLnk2_CfgGen/CfgCanNm.cpp
-   source/SmbLnk2_CfgGen/CfgCanSm.cpp
-   source/SmbLnk2_CfgGen/CfgCanTp.cpp
-   source/SmbLnk2_CfgGen/CfgCan.cpp
-   source/SmbLnk2_CfgGen/CfgComM.cpp
-   source/SmbLnk2_CfgGen/CfgCom.cpp
-   source/SmbLnk2_CfgGen/CfgCryIf.cpp
-   source/SmbLnk2_CfgGen/CfgCry.cpp
-   source/SmbLnk2_CfgGen/CfgCsm.cpp
-   source/SmbLnk2_CfgGen/CfgDcm.cpp
-   source/SmbLnk2_CfgGen/CfgDem.cpp
-   source/SmbLnk2_CfgGen/CfgDet.cpp
-   source/SmbLnk2_CfgGen/CfgDio.cpp
-   source/SmbLnk2_CfgGen/CfgDlt.cpp
-   source/SmbLnk2_CfgGen/CfgEa.cpp
-   source/SmbLnk2_CfgGen/CfgEcuM.cpp
-   source/SmbLnk2_CfgGen/CfgEep.cpp
-   source/SmbLnk2_CfgGen/CfgEthIf.cpp
-   source/SmbLnk2_CfgGen/CfgEth.cpp
-   source/SmbLnk2_CfgGen/CfgFee.cpp
-   source/SmbLnk2_CfgGen/CfgFiM.cpp
-   source/SmbLnk2_CfgGen/CfgFls.cpp
-   source/SmbLnk2_CfgGen/CfgFrIf.cpp
-   source/SmbLnk2_CfgGen/CfgFrNm.cpp
-   source/SmbLnk2_CfgGen/CfgFrTp.cpp
-   source/SmbLnk2_CfgGen/CfgFr.cpp
-   source/SmbLnk2_CfgGen/CfgGpt.cpp
-   source/SmbLnk2_CfgGen/CfgIcu.cpp
-   source/SmbLnk2_CfgGen/CfgIpduM.cpp
-   source/SmbLnk2_CfgGen/CfgJ1939Tp.cpp
-   source/SmbLnk2_CfgGen/CfgLinIf.cpp
-   source/SmbLnk2_CfgGen/CfgLinTp.cpp
-   source/SmbLnk2_CfgGen/CfgLin.cpp
-   source/SmbLnk2_CfgGen/CfgMcu.cpp
-   source/SmbLnk2_CfgGen/CfgMemIf.cpp
-   source/SmbLnk2_CfgGen/CfgNm.cpp
-   source/SmbLnk2_CfgGen/CfgNvM.cpp
-   source/SmbLnk2_CfgGen/CfgOcu.cpp
-   source/SmbLnk2_CfgGen/CfgOs.cpp
-   source/SmbLnk2_CfgGen/CfgPduR.cpp
-   source/SmbLnk2_CfgGen/CfgPort.cpp
-   source/SmbLnk2_CfgGen/CfgPwm.cpp
-   source/SmbLnk2_CfgGen/CfgSchM.cpp
-   source/SmbLnk2_CfgGen/CfgSecOC.cpp
-   source/SmbLnk2_CfgGen/CfgSokFm.cpp
-   source/SmbLnk2_CfgGen/CfgSpi.cpp
-   source/SmbLnk2_CfgGen/CfgStbM.cpp
-   source/SmbLnk2_CfgGen/CfgStartUp.cpp
-   source/SmbLnk2_CfgGen/CfgVkms.cpp
-   source/SmbLnk2_CfgGen/CfgWdgIf.cpp
-   source/SmbLnk2_CfgGen/CfgWdgM.cpp
-   source/SmbLnk2_CfgGen/CfgWdg.cpp
    source/SmbLnk2_CanIf/CanIf.cpp
    source/SmbLnk2_CanTp/CanTp.cpp
    source/SmbLnk2_CryIf/CryIf.cpp
